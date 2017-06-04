@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VIPPlayer</string>
+    <string name="num1">http://www.vipjiexi.com/yun.php?url=</string>
+    <string name="num2">https://api.47ks.com/webcloud/?v=</string>
+    <string name="num3">http://www.wmxz.wang/video.php?url</string>
+    <string name="num4">http://qtzr.net/s/?qt=</string>
+    <string name="num5">http://aikan-tv.com/tong.php?url=</string>
+    <string name="num6">http://v.72du.com/api/?url=</string>
+    <string name="num7">http://minevideo.sxl.me/qq.php?vid=</string>
+    <string-array name="url_spinner_array">
+        <!--顺序不能变-->
+        <item>通用引擎一</item>
+        <item>通用引擎二</item>
+        <item>通用引擎三</item>
+        <item>搜狐、乐视</item>
+        <item>腾讯稳定</item>
+        <item>腾讯超清</item>
+        <item>腾讯推荐</item>
+    </string-array>
+</resources>

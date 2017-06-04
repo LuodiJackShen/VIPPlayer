@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/player_web_view_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y150"
+            android:visibility="gone">
+        </WebView>
+
+        <TextView
+            android:id="@+id/placeholder_tv_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y150"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="假装这有一个美女"
+            android:textSize="30sp"
+            android:textStyle="bold|italic">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/player_url_spinner_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y10"/>
+
+        <EditText
+            android:id="@+id/player_url_et_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y10"
+            android:hint="会员视频的地址"/>
+
+        <Button
+            android:id="@+id/play_btn_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x3"
+            android:layout_marginRight="@dimen/x3"
+            android:background="@android:color/black"
+            android:text="播放"
+            android:textColor="@android:color/white"/>
+
+        <GridView
+            android:id="@+id/video_url_gv_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y110">
+        </GridView>
+    </LinearLayout>
+</ScrollView>
