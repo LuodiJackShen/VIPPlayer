@@ -122,6 +122,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
+    
+    @Override
+    protected void onDestroy() {
+        mWebView.stopLoading();
+        mWebView.destroy();
+    }
+    
     private void initData() {
         //顺序不能变，应该和spinner的adapter的数组的顺序一致。
         mUrls.add(getString(R.string.num1));
